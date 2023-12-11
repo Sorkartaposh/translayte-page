@@ -1,0 +1,609 @@
+/*
+====================================
+large Screen - Others
+====================================
+*/
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+    /* hero nav */
+    .hero-nav-right ul li a {
+        font-size: 14px;
+    }
+    .logo-btn ul li:first-child a {
+        width: 85px;
+        min-height: 40px;
+        font-size: 14px;
+        margin-right: 5px;
+    }
+    .hero-nav-right > a {
+        width: 175px;
+        font-size: 14px;
+        min-height: 40px;
+    }
+    .hero-nav-right ul li{
+        margin: 0 5px;
+    }
+    .hero-nav-left {
+        gap: 20px;
+    }
+
+    /* hero content */
+    .hero-item h1 {
+        font-size: 45px;
+        line-height: 45px;
+        width: 100%;
+        max-width: 450px;
+    }
+    .hero-item p {
+        font-size: 18px;
+    }
+    .hero-review span > img {
+        max-width: 80px;
+    }
+    .hero-review span {
+        font-size: 14px;
+    }
+    .hero-review span a > img {
+        max-width: 90px;
+    }
+
+
+
+
+
+
+
+}
+
+
+
+
+/*
+====================================
+Medium Screen - Others
+====================================
+*/
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    /* top- nav */
+    .top-nav > ul li {
+        margin: 0 10px;
+    }
+
+    /* hero nav */
+    .hero-nav-right ul li a {
+        font-size: 10px;
+    }
+    .logo-btn ul li:first-child a {
+        width: 85px;
+        min-height: 40px;
+        font-size: 10px;
+        margin-right: 5px;
+    }
+    .hero-nav-right > a {
+        width: 175px;
+        font-size: 10px;
+        min-height: 40px;
+    }
+    .hero-nav-right ul li{
+        margin: 0 5px;
+    }
+    .hero-nav-left {
+        gap: 10px;
+    }
+    .logo-btn ul li:last-child a {
+        font-size: 10px;
+    }
+    .hero-nav-right > a {
+        width: 140px;
+        font-size: 10px;
+        min-height: 40px;
+    }
+    .hero-nav-right {
+        gap: 5px;
+    }
+    .logo a img {
+        width: 130px;
+    }
+    .top-nav > ul li a {
+        font-size: 10px;
+    }
+    .lang-picker em {
+        font-size: 12px;
+    }
+    .language-picker__flag--english::before {
+        width: 25px;
+        height: 20px;
+    }
+    .hero-item h1 {
+        font-size: 35px;
+        line-height: 40px;
+        margin-top: 15px;
+    }
+.hero-review span label {
+    display: none;
+}
+.hero-review span > img {
+    max-width: 80px;
+    margin-right: 5px;
+}
+.hero-review span a > img {
+    width: 90px;
+    margin-left: 5px;
+}
+.hero-review span {
+    font-size: 14px;
+}
+.hero-item p {
+    font-size: 16px;
+}
+.hero-item p br {
+    display: none;
+}
+.hero-item ul li {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+.hero-item ul li img {
+    width: 20px;
+    margin-right: 10px;
+}
+.brand-text p {
+    font-size: 18px;
+}
+.quality-item h3 {
+    font-size: 50px;
+}
+.price-item {
+    padding: 40px;
+}
+.price-item ul li img {
+    margin-right: 8px;
+}
+.price-item ul li {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.price-item p {
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+}
+
+/*
+====================================
+Small Screen - Tablate
+====================================
+*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+.hero-nav-row {
+    display: none;
+}
+.mobile-bar {
+    display: block;
+}
+.mobile-logo {
+    display: block;
+}
+.top-nav > ul {
+    display: none;
+}
+.header-area {
+    background-color: #F0F3F4;
+    padding-top: 25px;
+}
+.hero-row {
+    padding-top: 48px;
+}
+.hero-review > a {
+    display: block;
+}
+.hero-review > a img {
+    width: 109px;
+}
+.hero-review > span a {
+    display: none;
+}
+.hero-review {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero-review > span label {
+    display: none;
+}
+.mobile-hero-img {
+    display: block;
+}
+.mobile-hero-img img {
+    width: 100%;
+    display: block;
+    margin-top: 50px;
+}
+.hero-img-col {
+    display: none;
+}
+.hero-item > a {
+    max-width: 100%;
+}
+.brand-text {
+    display: none;
+}
+.price-btn {
+    flex-direction: column;
+    gap: 20px;
+}
+.price-btn a:first-child {
+    max-width: 80%;
+}
+.quality-area > div > .quality-item {
+    align-items: end;
+    padding-bottom: 30px;
+}
+.quality-item h3 {
+    font-size: 50px;
+    text-align: center;
+}
+.quality-item h3 br {
+    display: none;
+}
+.hero-item p {
+    margin-top: 20px;
+}
+.hero-item h1 {
+    font-size: 35px;
+    line-height: 40px;
+    margin-top: 15px;
+    width: 47%;
+}
+.hero-item p {
+    font-size: 16px;
+}
+.hero-item ul li {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+.hero-item ul li img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+}
+
+/*
+====================================
+Small Screen - Mobile
+====================================
+*/
+@media screen and (min-width: 576px) and (max-width: 767px) {	
+    .hero-nav-row {
+        display: none;
+    }
+    .mobile-bar {
+        display: block;
+    }
+    .mobile-logo {
+        display: block;
+    }
+    .top-nav > ul {
+        display: none;
+    }
+    .header-area {
+        background-color: #F0F3F4;
+        padding-top: 25px;
+    }
+    .hero-row {
+        padding-top: 48px;
+    }
+    .hero-review > a {
+        display: block;
+    }
+    .hero-review > a img {
+        width: 109px;
+    }
+    .hero-review > span a {
+        display: none;
+    }
+    .hero-review {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .hero-review > span label {
+        display: none;
+    }
+    .mobile-hero-img {
+        display: block;
+    }
+    .mobile-hero-img img {
+        width: 100%;
+        display: block;
+        margin-top: 49px;
+    }
+    .hero-img-col {
+        display: none;
+    }
+    .hero-item > a {
+        max-width: 100%;
+        margin-top: 44px;
+        font-size: 16px;
+    }
+    .brand-text {
+        display: none;
+    }
+    .price-btn {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .price-btn a:first-child {
+        max-width: 100%;
+        font-size: 16px;
+    }
+    .quality-area > div > .quality-item {
+        align-items: end;
+        padding-bottom: 30px;
+    }
+    .quality-item h3 {
+        width: 385px;
+        font-size: 34px;
+        line-height: 40px;
+    }
+    .quality-area {
+        background: url(../images/mobile-banner.svg) no-repeat;
+        background-size: cover;
+    }
+    .quality-item h3 br {
+        display: none;
+    }
+    .hero-item p {
+        margin-top: 20px;
+    }
+    .hero-item h1 {
+        font-size: 38px;
+        line-height: 40px;
+        margin-top: 30px;
+        width: 100%;
+        max-width: 400px;
+    }
+    .hero-item p {
+        font-size: 20px;
+    }
+    .hero-item ul li {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .hero-item ul li img {
+        width: 20px;
+        margin-right: 10px;
+    }
+    .hero-review span > img {
+        max-width: 109px;
+    }  
+    .brand-area {
+        padding-top: 39px;
+    }
+    .price-area {
+        padding-top: 39px;
+    }
+    .price-item {
+        padding: 40px 30px;
+    }
+    .price-item h3 {
+        margin-bottom: 20px;
+    }
+    .price-item ul li {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .price-area {
+        padding-bottom: 27px;
+    }
+    .quality-area > div > .quality-item {
+        justify-content: start;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/*
+====================================
+Xtra Small Screen - Small Mobile
+====================================
+*/
+@media screen and (max-width: 576px) {
+    .hero-nav-row {
+        display: none;
+    }
+    .mobile-bar {
+        display: block;
+    }
+    .mobile-logo {
+        display: block;
+    }
+    .top-nav > ul {
+        display: none;
+    }
+    .header-area {
+        background-color: #F0F3F4;
+        padding-top: 25px;
+    }
+    .hero-row {
+        padding-top: 48px;
+    }
+    .hero-review > a {
+        display: block;
+    }
+    .hero-review > a img {
+        width: 109px;
+    }
+    .hero-review > span a {
+        display: none;
+    }
+    .hero-review {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .hero-review > span label {
+        display: none;
+    }
+    .mobile-hero-img {
+        display: block;
+    }
+    .mobile-hero-img img {
+        width: 100%;
+        display: block;
+        margin-top: 49px;
+    }
+    .hero-img-col {
+        display: none;
+    }
+    .hero-item > a {
+        max-width: 100%;
+        margin-top: 44px;
+        font-size: 16px;
+    }
+    .brand-text {
+        display: none;
+    }
+    .price-btn {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .price-btn a:first-child {
+        max-width: 100%;
+        font-size: 16px;
+    }
+    .quality-area > .container > .quality-item {
+        align-items: end;
+        padding-bottom: 30px;
+    }
+    .quality-item h3 {
+        width: 385px;
+        font-size: 34px;
+        line-height: 40px;
+    }
+    .quality-area {
+        background: url(../images/mobile-banner.svg) no-repeat;
+        background-size: cover;
+    }
+    .quality-item h3 br {
+        display: none;
+    }
+    .hero-item p {
+        margin-top: 20px;
+    }
+    .hero-item h1 {
+        font-size: 38px;
+        line-height: 40px;
+        margin-top: 30px;
+        width: 100%;
+        max-width: 400px;
+    }
+    .hero-item p {
+        font-size: 20px;
+    }
+    .hero-item p br {
+        display: none;
+    }
+    .hero-item ul li {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .hero-item ul li img {
+        width: 20px;
+        margin-right: 10px;
+    }
+    .hero-review span > img {
+        max-width: 94px;
+        margin-right: 5px;
+    }  
+    .brand-area {
+        padding-top: 39px;
+    }
+    .price-area {
+        padding-top: 39px;
+    }
+    .price-item {
+        padding: 40px 30px;
+    }
+    .price-item h3 {
+        margin-bottom: 20px;
+    }
+    .price-item ul li {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .price-area {
+        padding-bottom: 27px;
+    }
+    .quality-area > div > .quality-item {
+        justify-content: start;
+        align-items: end;
+    }
+    .quality-area {
+        padding-bottom: 30px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
